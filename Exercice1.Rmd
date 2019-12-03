@@ -14,7 +14,7 @@ Téléchargement des données
 ```{r "download data"}
 url <- "https://raw.githubusercontent.com/FRBCesab/datatoolbox/master/data/"
 file <- "wildfinder-mammals_list.csv"  
-urls <- paste0(url, file)
+url <- paste0(url, file)
 mamm_list <- download.file(url, destfile = "~/Formation Cesab/ExercicesCesab")
 ```
 

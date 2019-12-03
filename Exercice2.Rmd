@@ -1,0 +1,18 @@
+---
+title: "Exercice2"
+author: "SimonR"
+date: "3 décembre 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Télécharger les données
+
+```{r}
+wildfinder_mammals_list <- read_csv(url)
+wildfinder_ecoregions_list <- read_csv("https://raw.githubusercontent.com/FRBCesab/datatoolbox/master/data/wildfinder-ecoregions_list.csv")
+wildfinder_ecoregions_species <- read.csv("https://raw.githubusercontent.com/FRBCesab/datatoolbox/master/data/wildfinder-ecoregions_species.csv")
+```
